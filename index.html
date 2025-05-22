@@ -325,7 +325,7 @@
             alert('Seu carrinho está vazio!');
             return;
         }
-        const whatsappNumber = '5592984413665'; // Troque pelo número do Mario com DDD e sem espaços
+        const whatsappNumber = '+55092984413665'; // Troque pelo número do Mario com DDD e sem espaços
         let message = `Olá Mario, gostaria de fazer o pedido:\n\n`;
         cartItems.forEach(item => {
             message += `- ${item.nome} x${item.quantidade} = R$ ${(item.preco * item.quantidade).toFixed(2)}\n`;

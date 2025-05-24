@@ -77,6 +77,7 @@ nav a:hover {
     font-size: 1rem;
 }
 
+/* Botão adicionar ao carrinho */
 button.add-to-cart {
     background-color: #25d366;
     border: none;
@@ -121,7 +122,7 @@ button.add-to-cart:hover {
     font-size: 1.3rem;
 }
 
-/* Carrinho painel */
+/* Painel do carrinho */
 #cart {
     position: fixed;
     right: 1rem;
@@ -184,6 +185,32 @@ button.add-to-cart:hover {
 #cart button:hover {
     background-color: #1ebd5a;
 }
+
+/* Menu de categorias */
+.filtro-categorias {
+    text-align: center;
+    padding: 1rem;
+}
+.filtro-categorias button {
+    margin: 0.5rem;
+    padding: 0.6rem 1rem;
+    border: none;
+    background-color: #000;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.filtro-categorias button:hover {
+    background-color: #25d366;
+}
+
+/* Cores por categoria */
+.produto.smartphone { border-color: #007bff; }
+.produto.smartwatch { border-color: #6f42c1; }
+.produto.brinquedo { border-color: #ffc107; }
+.produto.acessorio-carro { border-color: #28a745; }
 
 /* Ajustes para telas maiores */
 @media (min-width: 600px) {
